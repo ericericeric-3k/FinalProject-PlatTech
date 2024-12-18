@@ -1,0 +1,116 @@
+.header {
+    display: flex;
+    justify-content: right;
+    align-items: center;
+
+    padding: 1rem;
+    margin: 0.75rem;
+
+    border-radius: 8px;
+    background-color: var(--clr-1);
+
+    position: fixed;
+    top: 0;
+    z-index: 99;
+}
+
+.header-comp {
+    flex: 1;
+}
+
+a .header-comp {
+    display: flex;
+    align-items: center;
+}
+
+.header-logo {
+    display: block;
+    height: 2.6rem;
+    max-height: 2.6rem;
+}
+
+.header-logo-icon {
+    display: none;
+}
+
+.header-nav {
+    display: flex;
+    justify-content: right;
+
+    padding-right: 3rem;
+    padding-left: 1rem;
+
+    position: fixed;
+}
+
+.header-ul {
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    gap: 5rem;
+}
+
+.header-link {
+    font-size: var(--size-mid);
+    font-weight: 500;
+}
+
+.header-bar {
+    display: none;
+}
+
+@media (max-width: 940px){
+
+    .header-logo {
+        height: 2rem;
+    }
+
+    .header-ul {
+        gap: 3rem;
+    }
+
+    .header-link {
+        font-size: var(--size-reg);
+    }
+}
+
+@media (max-width: 880px) {
+
+    a .header-comp {
+        flex: 4;
+    }
+
+    .header-nav {
+        padding-right: 1rem;
+    }
+
+    .header-ul {
+        display: none;
+    }
+
+    .header-bar {
+        display: flex;
+        width: 2.75rem;
+    }
+
+    .header-bar svg {
+        transition: all 0.3s ease;
+    }
+
+    .header-bar svg:hover {
+        filter: invert(1);
+        transform: rotate(180deg);
+        stroke-width: 1rem;
+    }
+}
+
+@media (max-width: 640px) {
+    .header-logo {
+        display: none;
+    }
+
+    .header-logo-icon {
+        display: block;
+        height: 2rem;
+    }
+}

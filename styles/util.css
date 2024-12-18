@@ -1,0 +1,27 @@
+.fit-width{
+    width: 100%;
+}
+
+.show{
+    border: 1px red solid;
+}
+
+.title {
+    letter-spacing: -0.05em;
+}
+
+.shadow {
+    box-shadow: 0 5px 3px rgb(99, 106, 80, 0.5);
+}
+
+.margin-Top {
+    margin-top: 7rem;
+}
+
+.section {
+    margin-left: 3rem;
+    margin-right: 3rem;
+    margin-top: 2rem;
+
+    max-width: 90rem;
+}

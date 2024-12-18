@@ -1,0 +1,70 @@
+:root {
+    --clr-1: rgb(184, 216, 216);
+    --clr-2: rgb(122, 158, 159);
+    --clr-3: rgb(79, 99, 103);
+    --clr-4: rgb(238, 245, 219);
+    --clr-5: rgb(254, 94, 82);
+
+    --clr-test: rgb(100, 107, 81);
+    --clr-txt: rgb(50, 70, 74);
+
+    --size-sm: 0.75rem;
+    --size-reg: 1rem;
+    --size-mid: 1.125rem;
+    --size-lg: 1.25rem;
+    --size-xl: 1.5rem;
+    --size-2xl: 1.875rem;
+    --size-3xl: 2rem;
+    --size-4xl: 2.25rem;
+    --size-5xl: 3rem;
+}
+
+*{
+    margin: 0;
+    line-height: calc(1em + 0.5em);
+}
+
+html {
+    scroll-behavior: smooth;
+    font-size: 16px;
+}
+
+body {
+    font-family: "general sans", sans-serif;
+    background-color: var(--clr-4);
+    color: var(--clr-txt);
+}
+
+img,
+picture,
+video,
+canvas,
+svg {
+    display: block;
+    max-width: 100%;
+    user-select: none;
+}
+
+button {
+    display: inline-block;
+    padding: 0;
+    border: none;
+    background: none;
+    cursor: pointer;
+    color: inherit;
+}
+
+a {
+    color: var(--clr-3);
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+a:hover {
+    color: aliceblue;
+}
+
+strong {
+    color: var(--clr-5);
+}
+
