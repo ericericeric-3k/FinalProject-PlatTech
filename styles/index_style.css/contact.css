@@ -1,0 +1,67 @@
+.contact {
+    display: flex;
+    flex-direction: column;
+}
+
+.contact-header {
+    display: flex;
+    padding: 0.5rem;
+
+    gap: 1rem;
+}
+
+.contact-header h1 {
+    color: var(--clr-txt);
+    font-size: var(--size-5xl);
+}
+
+.contact-header hr {
+    width: 0;
+    border-width: 1px;
+    border-color: var(--clr-5);
+}
+
+.contact-header img {
+    height: 4em;
+}
+
+.contact-content {
+    display: flex;
+}
+
+.contact-info {
+    display: flex;
+    flex-direction: column;
+    max-width: 50vw;
+
+    gap: 0.3rem;
+    margin: 1rem;
+    padding: 1.5rem;
+}
+
+.contact-item {
+    display: flex;
+}
+
+.contact-item h3 {
+    color: var(--clr-2);
+    font-weight: 900;
+
+    font-size: var(--size-reg);
+
+    flex: 1;
+}
+
+.contact-item p {
+    flex: 2;
+    vertical-align: middle;
+}
+
+.contact-item p a {
+    display: inline-block;
+    margin: 0 0.5rem;
+}
+
+.contact-item p a svg{
+    height: 1.5rem;
+}

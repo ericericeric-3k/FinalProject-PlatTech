@@ -33,6 +33,7 @@ body {
     font-family: "general sans", sans-serif;
     background-color: var(--clr-4);
     color: var(--clr-txt);
+    justify-content: center;
 }
 
 img,
