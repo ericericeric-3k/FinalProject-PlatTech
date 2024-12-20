@@ -8,15 +8,6 @@
     padding: 1rem;
 }
 
-.main_about-close {
-    display: flex;
-    flex-direction: column;
-}
-
-.main_about-close hr {
-    border-style: dashed;
-}
-
 .main_about-header {
     display: flex;
     gap: 0.5rem;
@@ -43,6 +34,11 @@
 .main_about-content p {
     text-align: center;
     width: 475px;
+}
+
+.main_about button {
+    font-size: var(--size-lg);
+    color: var(--clr-3);
 }
 
 @media(max-width: 475px){

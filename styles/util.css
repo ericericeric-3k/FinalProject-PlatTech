@@ -22,6 +22,16 @@
     border-radius: 10px;
 }
 
+.div-hr {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.div-hr hr{
+    border-style: dashed;
+}
+
 .input-field {
     padding: 0.8rem;
     border-width: 1px;
@@ -33,9 +43,6 @@
     resize: none;
 }
 
-.margin-Top {
-    margin-top: 7rem;
-}
 
 .section {
     margin-left: 3rem;
@@ -43,6 +50,10 @@
     margin-top: 2rem;
 
     max-width: 90rem;
+}
+
+.margin-Top {
+    margin-top: 7rem;
 }
 
 @media (max-width: 575px){

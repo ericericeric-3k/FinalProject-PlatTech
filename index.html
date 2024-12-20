@@ -10,7 +10,9 @@
      <link rel="stylesheet" type="text/css" href="./styles/modern_normalize.css">
      <link rel="stylesheet" type="text/css" href="./styles/style.css">
      <link rel="stylesheet" type="text/css" href="./styles/header.css">
+     <link rel="stylesheet" type="text/css" href="./styles/main/main_event.css">
      <link rel="stylesheet" type="text/css" href="./styles/main/main_about.css">
+     <link rel="stylesheet" type="text/css" href="./styles/main/main_pets.css">
      <link rel="stylesheet" type="text/css" href="./styles/index_style.css/contact.css">
      <link rel="stylesheet" type="text/css" href="./styles/footer.css">
      <link rel="stylesheet" type="text/css" href="./styles/util.css">
@@ -41,7 +43,92 @@
         </nav>
     </header>
     
-    <section class="main_about margin-Top">
+    <section class="main_event section margin-Top">
+        <div class="main_event-header">
+            <h1 class="title">Upcoming Events</h1>
+            <hr>
+            <img src="./resources/haven_icon.png" alt="haven-icon">
+        </div>
+
+        <div class="main_event-content">
+            <div class="main_event-card round-border shadow">
+                <img class="main_event-card-img" src="./resources/event-adoption.png" alt="adopt">
+                <div class="main_event-card-content">
+                    <div class="main_event-card-header">
+                        <h2 class="title">Pet Adoption Day</h2>
+                        <p>October 30, 2024</p>
+                    </div>
+                    <div class="main_event-card-description">
+                        <p>Location: 123 Pet Haven Street, Cityville</p>
+                        <p>Time: 10:00 AM - 4:00 PM</p>
+                        <p>Join us for our Pet Adoption Day! Find your new furry friend and give them a forever home.</p>
+                    </div>
+                    <button class="main_event-card-btn btn title">
+                        Sign Up
+                        <div class="div-hr">
+                            <hr>
+                        </div>
+                    </button>
+                </div>
+            </div>
+
+            <div class="main_event-card round-border shadow">
+                <img class="main_event-card-img" src="./resources/event-volunteer_orient.png" alt="volunteer">
+                <div class="main_event-card-content">
+                    <div class="main_event-card-header">
+                        <h2 class="title">Volunteer Orientation</h2>
+                        <p>November 15, 2024</p>
+                    </div>
+                    <div class="main_event-card-description">
+                        <p>Location: 456 Volunteer Lane, Cityville</p>
+                        <p>Time: 9:00 AM - 12:00 PM</p>
+                        <p>Learn how you can make a difference in the lives of our shelter animals. Join our Volunteer Orientation!</p>
+                    </div>
+                    <button class="main_event-card-btn btn title">
+                        Sign Up
+                        <div class="div-hr">
+                            <hr>
+                        </div>
+                    </button>
+                </div>
+            </div>
+
+            <div class="main_event-card round-border shadow">
+                <img class="main_event-card-img" src="./resources/event-vaccination.png" alt="vaccination">
+                <div class="main_event-card-content">
+                    <div class="main_event-card-header">
+                        <h2 class="title">Healthy Paws Vaccination Drive</h2>
+                        <p>December 5, 2024</p>
+                    </div>
+                    <div class="main_event-card-description">
+                        <p>Location: 789 Pet Haven Street, Cityville</p>
+                        <p>Time: 8:00 AM - 12:00 PM</p>
+                        <p>
+                            Support our Healthy Paws Vaccination Drive and help keep our shelter animals healthy and happy.
+                        </p>
+                    </div>
+                    <button class="main_event-card-btn btn title">
+                        Sign Up
+                        <div class="div-hr">
+                            <hr>
+                        </div>
+                    </button>
+                </div>
+            </div>
+        </div>
+        
+        <div class="main_event-div-btn">
+            <button class="main_event-btn btn title">
+                View All Events
+                <div class="div-hr">
+                    <hr>
+                </div>
+            </button>
+        </div>
+        
+    </section>
+
+    <section class="main_about" style="margin-top: 2rem;">
         <div class="main_about-header fit-width">
             <hr>
             <h1 class="title">About Us</h1>
@@ -55,12 +142,68 @@
         </div>
         <button onclick="window.location.href='./pages/about_page.html';" class="main_about-btn btn title">
             Read more
-            <div class="main_about-close fit-width">
+            <div class="div-hr">
                 <hr>
             </div>
         </button>
-        <div class="main_about-close fit-width">
+        <div class="div-hr">
             <hr>
+        </div>
+    </section>
+
+    <section class="main_pet section">
+        <div class="main_pet-header">
+            <h1 class="title">Featured Pets</h1>
+            <hr>
+            <img src="./resources/paws_icon.png" alt="paws-icon">
+        </div>
+        <div class="main_pet-content">
+            <div class="main_pet-card round-border shadow">
+                <img class="main_pet-card-img" src="./resources/adopt-escanor.png" alt="pet1">
+                <div class="main_pet-card-content">
+                    <h2 class="title">Escanor</h2>
+                    <hr>
+                    <ul style="margin-top: 1rem;">
+                        <li>Golden Retriever</li>
+                        <li>2 years old</li>
+                        <li>Male</li>
+                        <li>Vaccinated, Dewormed, Neutered</li>
+                    </ul>
+                    <p class="main_pet-card-description">
+                            Escanor is a sweet and playful Golden Retriever who loves to play fetch and go on long walks. He is looking for a loving family who will give him lots of belly rubs and treats.
+                    </p>
+                    <button class="main_pet-card-btn btn title">
+                        Adopt Me
+                        <div class="div-hr">
+                            <hr>
+                        </div>
+                    </button>
+                </div>
+            </div>
+
+            <div class="main_pet-card round-border shadow">
+                <img class="main_pet-card-img" src="./resources/adopt-Nuclear_Warfare.png" alt="pet2">
+                <div class="main_pet-card-content">
+                    <h2 class="title">Nuclear Warfare</h2>
+                    <hr>
+                    <ul style="margin-top: 1rem;">
+                        <li>Siamese Cat</li>
+                        <li>7 months old</li>
+                        <li>Female</li>
+                        <li>Vaccinated, Dewormed</li>
+                    </ul>
+                    <p class="main_pet-card-description">
+                        Nuclear Warfare is a curious and affectionate Siamese Cat who loves to cuddle and play with toys. She is looking for a forever home where she can be the center of attention.
+                    </p>
+                    <button class="main_pet-card-btn btn title">
+                        Adopt Me
+                        <div class="div-hr">
+                            <hr>
+                        </div>
+                    </button>
+                </div>
+            </div>
+
         </div>
     </section>
 

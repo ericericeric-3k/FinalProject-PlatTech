@@ -1,0 +1,76 @@
+.main_event {
+    display: flex;
+    flex-direction: column;
+}
+
+.main_event-header {
+    display: flex;
+    padding: 0.5rem;
+
+    gap: 1rem;
+}
+
+.main_event-header h1 {
+    color: var(--clr-txt);
+    font-size: var(--size-5xl);
+}
+
+.main_event-header img {
+    height: 4em;
+}
+
+.main_event-content {
+    display: flex;
+    gap: 1rem;
+}
+
+.main_event-card {
+    display: flex;
+    flex-direction: column;
+    padding: none;
+    position: relative;
+    overflow: hidden;
+
+    width: 33.3%;
+}
+
+.main_event-card img {
+    width: 100%;
+    object-fit: cover;
+    object-position: top;
+    z-index: 0;
+
+    transition: all 0.5s ease;
+    flex: 1;
+}
+
+.main_event-card:hover img {
+    transform: scale(1.1);
+    z-index: 0;
+}
+
+.main_event-card-content {
+    flex: 1;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+
+    padding: 1rem;
+    z-index: 2;
+}
+
+.main_event-card-btn {
+    color: var(--clr-3);
+}
+
+.main_event-div-btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    padding: 1rem;
+}
+
+.main_event-btn {
+    font-size: var(--size-lg);
+    color: var(--clr-3);
+}
