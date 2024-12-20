@@ -51,7 +51,7 @@
 
 .main_event-card-content {
     flex: 1;
-    background-color: rgba(0, 0, 0, 0.5);
+    background-color: var(--clr-6);
     color: white;
 
     padding: 1rem;

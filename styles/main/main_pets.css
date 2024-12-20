@@ -50,7 +50,7 @@
 }
 
 .main_pet-card-content {
-    background-color: rgba(0, 0, 0, 0.5);
+    background-color: var(--clr-6);
     color: white;
     gap: 0.5rem;
 
