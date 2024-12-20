@@ -1,0 +1,41 @@
+.footer {
+    display: flex;
+    background-color: var(--clr-3);
+    align-items: center;
+
+    padding: 1rem;
+    margin-top: 1rem;
+    gap: 1rem;
+}
+
+.footer hr {
+    border-width: 1px;
+    padding-top: 4em;
+    padding-bottom: 4em;
+}
+
+
+.footer-icon {
+    height: 5rem;
+}
+
+.footer-ul {
+    list-style: none;
+
+    display: flex;
+    flex-direction: column;
+
+    padding: 0;
+    gap: 0.2rem;
+    color: var(--clr-4);
+    font-weight: 100;
+}
+
+@media (max-width: 521px){
+    .footer {
+        gap: 0.5rem;
+    }
+    .footer-ul {
+        font-size: 14px;
+    }
+}

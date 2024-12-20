@@ -62,7 +62,7 @@ a .header-comp {
 @media (max-width: 940px){
 
     .header-logo {
-        height: 2rem;
+        height: 2.3rem;
     }
 
     .header-ul {
@@ -111,6 +111,6 @@ a .header-comp {
 
     .header-logo-icon {
         display: block;
-        height: 2rem;
+        height: 2.3rem;
     }
 }

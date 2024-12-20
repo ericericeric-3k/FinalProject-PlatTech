@@ -55,6 +55,7 @@
 
     .about-content-between {
         display: flex;
+        justify-content: center;
     }
 
     .about-content-between img{
@@ -72,5 +73,35 @@
 
     .about-content-img {
         display: none;
+    }
+}
+
+@media (max-width: 1024px) {
+
+    .about-content {
+        justify-content: center;
+    }
+
+    .about-content-comp {
+        flex-direction: column;
+    }
+   
+    .about-content-comp p {
+        padding: 2rem;
+    }
+    
+    .about-content-between img{
+        width: 3rem;
+    }
+    
+}
+
+@media (max-width: 443px){
+    .about-header {
+        gap: 0.3rem;
+        justify-content: center;
+    }
+    .about-header h1 {
+        font-size: var(--size-3xl);
     }
 }

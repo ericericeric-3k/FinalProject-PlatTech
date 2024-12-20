@@ -8,6 +8,7 @@
     --clr-test: rgb(100, 107, 81);
     --clr-txt: rgb(50, 70, 74);
 
+    --size-xs: 0.25rem;
     --size-sm: 0.75rem;
     --size-reg: 1rem;
     --size-mid: 1.125rem;
@@ -33,7 +34,6 @@ body {
     font-family: "general sans", sans-serif;
     background-color: var(--clr-4);
     color: var(--clr-txt);
-    justify-content: center;
 }
 
 img,
@@ -53,6 +53,27 @@ button {
     background: none;
     cursor: pointer;
     color: inherit;
+}
+
+.btn {
+    padding: 0.8rem 0.8rem;
+
+    text-align: center;
+    font-weight: 900;
+    background-color: var(--clr-1);
+    border-radius: 10px;
+    border: 1px var(--clr-3) solid;
+    margin: 0.2rem;
+
+    box-shadow: 0 5px 10px rgb(99, 106, 80, 0.5);
+
+    transition: all 0.3s ease;
+}
+
+.btn:hover {
+    color: var(--clr-3);
+    box-shadow: 0 0 3px rgb(99, 106, 80, 0.5);
+    transform: translateY(5px);
 }
 
 a {
